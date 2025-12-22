@@ -180,4 +180,30 @@ This project is open-source and available under the **MIT License**.
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+Z
+
+* * *
+
+## 🔮 Future Work & Roadmap
+
+We are actively working on improving the system. The next planned updates include:
+
+1.  **🔒 Backend Security Hardening:**
+    
+    - Currently, the backend is a research prototype without strict access controls.
+        
+    - Future updates will implement Rate Limiting, and input sanitization to secure the server against abuse.
+        
+2.  **📢 Crowdsourced Threat Intelligence:**
+    
+    - The *"Report this web as phishing"* button in the extension GUI is currently a placeholder.
+        
+    - We plan to activate this feature to allow users to submit false negatives, creating a feedback loop to improve the heuristic engine.
+        
+3.  **🤖 Automated Allowlist Synchronization:**
+    
+    - The current allowlist is pre-configured with safe domains from the Tranco list.
+        
+    - We are developing an automation script to periodically fetch the latest top domains.
+
 &nbsp;
