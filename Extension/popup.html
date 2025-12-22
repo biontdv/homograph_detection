@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Detector</title>
+    <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+    <div class="header">
+        <!-- brand image di tengah tepat di bawah TDVGUARD -->
+        <div class="brand">
+            <img src="assets/tdvguard-white.png" alt="TDVGuard Logo" class="brand-img">
+        </div>
+    </div>
+
+    <div class="status-container">
+        <div id="indicator" class="indicator off"></div>
+        <span id="statusText">Disabled</span>
+    </div>
+
+    <button id="toggleProtection">Enable Protection</button>
+    <button id="reportPhishing">Report this web as phishing</button>
+
+    <div id="statusMessage" class="message"></div>
+
+    <script src="scripts/popup.js"></script>
+</body>
+</html>

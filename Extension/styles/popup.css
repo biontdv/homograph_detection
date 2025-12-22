@@ -1,0 +1,181 @@
+/* popup.css */
+
+body {
+  font-family: Arial, sans-serif;
+  width: 250px; /* Lebar popup */
+  padding: 15px;
+  /* Ganti baris ini dengan gradient: */
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Warna gradient dari gambar yang Anda berikan */
+  color: #ecf0f1; /* Warna teks terang */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 16px;
+    background-color: #101010;
+    color: white;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.brand-img {
+    width: 72px;
+    height: auto;
+    object-fit: contain;
+}
+
+.status-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+    gap: 10px;
+}
+
+.indicator {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #444;
+    border: 1px solid #888;
+    box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.indicator.on {
+    background-color: #00ff00;
+    box-shadow: 0 0 8px #00ff00;
+}
+
+.indicator.off {
+    background-color: #ff3333;
+    box-shadow: 0 0 8px #ff3333;
+}
+
+button {
+    margin: 6px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #00ff00 ;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #00ff00;
+}
+
+button#reportPhishing {
+    background-color: #e84545;
+}
+
+button#reportPhishing:hover {
+    background-color: #c62828;
+}
+
+
+/* header + brand */
+.header {
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* container untuk logo */
+.brand {
+    margin-top: 8px;           /* jarak antara teks dan logo */
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;
+}
+
+/* ukuran logo yang proporsional */
+.brand-img {
+    width: 128px;              /* sesuaikan: 48px, 64px, 80px */
+    height: 128px;
+    object-fit: contain;
+    display: block;
+}
+
+
+h2 {
+  color: #ecf0f1;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.setting-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #bdc3c7;
+}
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #34495e;
+  background-color: #34495e;
+  color: #ecf0f1;
+  box-sizing: border-box; /* Include padding in width */
+  -webkit-appearance: none; /* Remove default dropdown arrow for custom styling */
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="%23ecf0f1" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>'); /* Custom arrow */
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  padding-right: 30px;
+}
+button {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+#saveSettings {
+  background-color: black; /* Biru */
+  color: white;
+}
+#saveSettings:hover {
+  background-color: black;
+}
+#reportPhishing {
+  background-color: #e74c3c; /* Merah */
+  color: white;
+}
+#reportPhishing:hover {
+  background-color: #c0392b;
+}
+.message {
+  margin-top: 10px;
+  font-size: 12px;
+  text-align: center;
+  color: #2ecc71; /* Hijau untuk sukses */
+}
