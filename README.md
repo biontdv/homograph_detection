@@ -106,9 +106,9 @@ By default, the system uses our **Custom Resilience-Optimized Map**. If you wish
 
 1.  Open `backend/mapping.py`.
     
-2.  **Uncomment** the function `muat_peta_homograf()` and the corresponding file path to load the standard map.
+2.  **Uncomment** the function `muat_peta_homograf()`. *line 12 is for standart confusables map, while line 63 is for our custom map
     
-3.  Change file PATH on line 152
+3.  Change file PATH on line 152 or 151
 4.  Restart the backend server.
     
 
