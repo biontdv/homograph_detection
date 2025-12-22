@@ -76,7 +76,7 @@ pybktree==1.1
 
 Before running the system, please ensure the following configurations are set:
 
-### ### A. Google Safe Browsing API Key
+### A. Google Safe Browsing API Key
 
 The system uses Google Safe Browsing as a final validation step.
 
@@ -140,6 +140,7 @@ python3 app.py
 4.  Select the `extension/` folder from this repository.
     
 5.  The extension is now active and will monitor URLs in real-time.
+
 *API configuration locate at \Extension\scripts\heuristic.js line 6
 
 ### 3\. Manual API Testing
