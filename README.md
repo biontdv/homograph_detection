@@ -11,6 +11,17 @@ This repository contains the source code and datasets for the paper: *"A Lightwe
 
 * * *
 
+---
+
+## 📸 User Interface
+
+| **Extension Popup** | **Phishing Warning Page** |
+|:---:|:---:|
+| <img src="extension.png" width="300"> | <img src="safepage.png" width="500"> |
+| *Real-time protection status and controls* | *User redirection upon detecting a threat* |
+
+---
+
 ## 📂 Project Structure
 
 The repository is organized into three main modules:
