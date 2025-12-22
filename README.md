@@ -78,13 +78,28 @@ whois==1.20240129.2
 
 Before running the system, please ensure the following configurations are set:
 
-### A. Google Safe Browsing API Key
+### ### A. Google Safe Browsing API Key
 
 The system uses Google Safe Browsing as a final validation step.
 
-1.  Obtain an API Key from the [Google Cloud Console](https://console.cloud.google.com/).
+1.  **Obtain an API Key:** Get your key from the [Google Cloud Console](https://console.cloud.google.com/).
     
-2.  Insert your API Key into the configuration variable.
+2.  **Set the API Key:** Insert your API key into the configuration variable in the following three files:
+    
+    - `backend/google_safebrowsing.py`
+        
+    - `backend/utils/download_hash_googlesafe.py`
+        
+    - `backend/utils/update_hash_googlesafebrowsing.py`
+        
+3.  **Initialize Database (Important):** After setting the key, you **must run** the download script to fetch the initial blocklist database.
+    
+    Bash
+    
+    ```
+    cd backend/utils
+    python3 download_hash_googlesafe.py
+    ```
     
 
 ### B. Selecting the Homoglyph Map (Advanced)
