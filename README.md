@@ -33,15 +33,15 @@ The repository is organized into three main modules:
 
 ### 1\. Prerequisites
 
-Ensure you have **Python 3.x** and **Google Chrome** installed.
+Ensure you have **Python 3.13.9** and **Google Chrome** installed.
 
 ### 2\. Installation & Dependencies
 
 Clone this repository and install the required Python packages. It is recommended to use a virtual environment.
 
 ```
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-cd your-repo-name
+git clone https://github.com/biontdv/homograph_detection.git
+cd homograph_detection
 pip install -r requirements.txt
 ```
 
@@ -56,11 +56,9 @@ filelock==3.20.1
 Flask==3.1.2  
 flask-cors==6.0.2  
 idna==3.11  
-itsdangerous==2.2.0  
-Jinja2==3.1.6  
+itsdangerous==2.2.0   
 Levenshtein==0.27.3  
 MarkupSafe==3.0.3  
-pip==25.1.1  
 psutil==7.1.3  
 publicsuffix2==2.20191221  
 pybktree==1.1  
