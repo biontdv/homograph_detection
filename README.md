@@ -1,6 +1,6 @@
 # 🛡️ Lightweight Browser-Based Phishing Detection System
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)  
+![Python](https://img.shields.io/badge/Python-3.13.9-blue?style=for-the-badge&logo=python)  
 ![Flask](https://img.shields.io/badge/Flask-3.1.2-green?style=for-the-badge&logo=flask)  
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)  
 ![Status](https://img.shields.io/badge/Status-Research_Prototype-orange?style=for-the-badge)
