@@ -1,12 +1,10 @@
 
 import re
 import utils.load_whitelist
-from pathlib import Path
 
 # Global cache
 
 PETA_HOMOGRAF = None
-BASE_DIR = Path(__file__).resolve().parent
 
 #uncomment below to use standart map and change path on line code 152
 # def muat_peta_homograf(path_file):
@@ -69,10 +67,11 @@ def muat_peta_homograf(path_file):
     try:
         with open(path_file, 'r', encoding='utf-8-sig') as f:
             for baris in f:
-         
+                # 1. Buang komentar (#) dan whitespace
                 baris_bersih = baris.split('#')[0].strip()
                 
- 
+                # 2. PENTING: Buang titik koma (;) di awal baris jika ada
+                # Karena di file Anda baris data dimulai dengan "; "
                 if baris_bersih.startswith(';'):
                     baris_bersih = baris_bersih[1:].strip()
 
@@ -89,12 +88,12 @@ def muat_peta_homograf(path_file):
                     kanan_parts = kanan.strip().split()
                     
                     if kanan_parts:
-                     
+                        # Ambil elemen pertama, misal: "A" dari "A Latin", atau "'bl'" dari "'bl' (Latin)"
                         raw_target = kanan_parts[0]
-                       
+                        # Bersihkan tanda kutip tunggal jika ada (misal: 'bl' -> bl)
                         char_latin = raw_target.replace("'", "")
                     else:
-                        continue # 
+                        continue # Skip jika kanan kosong
 
                     # Simpan ke map
                     if char_non_latin and char_latin:
@@ -141,60 +140,60 @@ def normalisasi_homograf(string_domain, peta_homograf, max_kandidat=500):
 
 
 
-def cek_domain_phishing(domain,sld_target,tld):
-    #sld_target = sld_target.lower()
+def cek_domain_phishing(domain, sld_target, tld):
+    # sld_target = sld_target.lower()
 
     """
     Deteksi phishing pada SLD (Second Level Domain).
     """
     global PETA_HOMOGRAF
-    homograph_map_path=BASE_DIR / "tdv_homoglyph_map.txt"
-    #homograph_map_path=BASE_DIR / "confusables.txt"
+    homograph_map_path = "C:\\Users\\user\\Documents\\thesis\\backend\\tdv_homoglyph_map.txt"
+    
     if PETA_HOMOGRAF is None:
-       # print("[INIT] Loading homoglyph map...")
         PETA_HOMOGRAF = muat_peta_homograf(homograph_map_path)
-       # print(f"[INIT] Loaded {len(PETA_HOMOGRAF)} homoglyph mappings")
 
-
-
-    # Cek apakah karakter ascii
+    # ==========================================================
+    # LOGIKA 1: CEK DOMAIN ALL-ASCII (Typosquatting)
+    # ==========================================================
     if all(c.isascii() for c in sld_target):
-        matches = utils.load_whitelist.BK_TREE.find(domain, 1)
+        # Rekomendasi: Threshold 2 untuk domain > 5 karakter, 
+        # jika <= 5 karakter tetap threshold 1 untuk menghindari noise.
+        threshold_ascii = 2 if len(sld_target) > 5 else 1
+        
+        matches = utils.load_whitelist.BK_TREE.find(domain, threshold_ascii)
 
         if matches:
+            # Cek apakah ada exact match (jarak 0) di dalam whitelist
             is_exact_match_in_whitelist = any(dist == 0 and item == domain for dist, item in matches)
-         #   print(matches)
-            for x in matches:         
-                if is_exact_match_in_whitelist:
-                    #print("WOY KIPAK")
-                    return "continue", None, None
-                else:
-                   # print("AJG BET COK")    
-                    #domain_mirip = matches[0][1]
-                    domain_mirip = min(matches, key=lambda x: x[0])[1]
-                    return "stop", domain_mirip, None
+            
+            if is_exact_match_in_whitelist:
+                return "continue", None, None
+            else:
+                # Ambil yang paling mirip (jarak terkecil)
+                domain_mirip = min(matches, key=lambda x: x[0])[1]
+                return "stop", domain_mirip, None
         else:
             return "continue", None, None
 
-    # Pengecekan awal: kalau ASCII semua dan persis match di top-1m → aman
-    # if all(c.isascii() for c in sld_target):
-    #     if sld_target.lower() in utils.load_whitelist.DB_DOMAIN:
-    #         return "continue", None, None
-
-    # Normalisasi homoglyph (maksimal 10 kemungkinan)
-    # Ambil hanya 15 char pertama
+    # ==========================================================
+    # LOGIKA 2: CEK IDN / NON-LATIN (Homograph)
+    # ==========================================================
+    # Normalisasi homoglyph (Tetap Threshold 1 sesuai permintaan)
     sld_target = sld_target[:30]
     kemungkinan_normalisasi = normalisasi_homograf(sld_target, PETA_HOMOGRAF, max_kandidat=500)
-    print(f"[DEBUG] Normalisasi: {kemungkinan_normalisasi}")
+    
+    # Debug info (bisa dimatikan saat production)
+    # print(f"[DEBUG] Normalisasi: {kemungkinan_normalisasi}")
 
-    # Cek kemiripan dengan BK-tree (jarak edit <=1)
     for normalisasi_string in kemungkinan_normalisasi:
         full_domain = f"{normalisasi_string}.{tld}"
+        
+        # Tetap gunakan threshold 1 untuk hasil normalisasi homograf
         matches = utils.load_whitelist.BK_TREE.find(full_domain, 1)
-        #print(matches)
+        
         if matches:
-            domain_mirip = matches[0][1]  # ambil domain pertama yang cocok
-            #print(f"[ALERT] '{sld_target}' -> '{normalisasi_string}' mirip '{domain_mirip}'")
+            # Jika hasil normalisasi mirip dengan whitelist, tandai sebagai phishing
+            domain_mirip = matches[0][1]
             return "stop", domain_mirip, kemungkinan_normalisasi
 
     return "continue", None, None
