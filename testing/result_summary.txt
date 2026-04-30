@@ -1,0 +1,1893 @@
+Scanning 2091/7000 — аssistedlιving.com... (idn_mixed_script)
+✨ Pengecekan 7000 domain telah selesai.
+
+================== HASIL PENGUJIAN PER ATTACK TYPE ==================
+[zero_width]
+  ✅ Terdeteksi          : 578
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.12
+  💾 Avg. Memory (MB)    : 0.0000
+
+[idn_greek]
+  ✅ Terdeteksi          : 607
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[idn_armenian_georgian]
+  ✅ Terdeteksi          : 569
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.10
+  💾 Avg. Memory (MB)    : 0.0000
+
+[punycode_encoded]
+  ✅ Terdeteksi          : 555
+  🚨 Missed              : 1
+  🔥 Error               : 0
+  🎯 Akurasi             : 99.82%
+  ⏱️  Avg. Duration (ms) : 0.53
+  💾 Avg. Memory (MB)    : 0.0003
+
+[visual_ascii_homoglyph]
+  ✅ Terdeteksi          : 53
+  🚨 Missed              : 585
+  🔥 Error               : 2
+  🎯 Akurasi             : 8.28%
+  ⏱️  Avg. Duration (ms) : 344.33
+  💾 Avg. Memory (MB)    : 0.2212
+
+[syntax_spoofing]
+  ✅ Terdeteksi          : 592
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.12
+  💾 Avg. Memory (MB)    : 0.0000
+
+[idn_mixed_script]
+  ✅ Terdeteksi          : 591
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.15
+  💾 Avg. Memory (MB)    : 0.0001
+
+[bidi_override]
+  ✅ Terdeteksi          : 548
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[unicode_confusable]
+  ✅ Terdeteksi          : 597
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[whole_script_substitution]
+  ✅ Terdeteksi          : 574
+  🚨 Missed              : 6
+  🔥 Error               : 0
+  🎯 Akurasi             : 98.97%
+  ⏱️  Avg. Duration (ms) : 7.40
+  💾 Avg. Memory (MB)    : 0.0053
+
+[multi_char_ascii_homoglyph]
+  ✅ Terdeteksi          : 384
+  🚨 Missed              : 191
+  🔥 Error               : 2
+  🎯 Akurasi             : 66.55%
+  ⏱️  Avg. Duration (ms) : 234.97
+  💾 Avg. Memory (MB)    : 0.2260
+
+[idn_cyrillic]
+  ✅ Terdeteksi          : 565
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+================== HASIL PENGUJIAN TOTAL ==================
+Total Domain Diuji      : 7000 (dari 7000 baris)
+✅ Berhasil Terdeteksi  : 6213
+🚨 Gagal Terdeteksi     : 783
+🔥 Domain Error         : 4
+---------------------------------------------------------------
+🎯 Tingkat Akurasi Total  : 88.81%
+⏱️  Avg. Duration (ms)    : 51.58
+💾 Avg. Memory (MB)      : 0.0393
+===============================================================
+
+--- Missed (punycode_encoded) ---
+- xn--d1aqfkf.xn--p1ai
+
+--- Missed (visual_ascii_homoglyph) ---
+- n5ol.ru
+- nar7owsized.ru
+- b0ats.top
+- stonem1nt.ru
+- 568yn.top
+- ba1ustje7ky.ru
+- lt27.de
+- j9i2c.ru
+- crystalf0x.ru
+- a-8-ain-4-unt.ru
+- into1erma5t.ru
+- r-54u.ru
+- pykokiu43.ru
+- cdn-568.ru
+- fa1ditmim2ns.ru
+- re5orsymp2th.ru
+- rkada4608.buzz
+- 3rbfr2n.bond
+- xoilactvl3.online
+- wild5ky.ru
+- 6i-xm.ru
+- j0-e-t.ru
+- j6v1um.sbs
+- cmb8k1nbj000008l1api07o0n.info
+- bsw4sh.top
+- ua-20.ru
+- 7d0re6.ru
+- rqyp1.ru
+- wi7o.online
+- dgjr6tujtyportyhgdfh.com
+- ckyq9.ru
+- golfperformance365.com
+- ex9.cc
+- 23win.coach
+- pl-4682.sbs
+- yu3.io
+- r3j5c.ru
+- fe9v.ru
+- pl-341292841692.cfd
+- nulymoo1.ru
+- l1ghtshore.ru
+- 1-mafus-044-e.ru
+- 91wx.top
+- luwotaa1.ru
+- unse55.xyz
+- kjyx-7.ru
+- nmys-4.ru
+- pl-3983939.icu
+- com-5.es
+- mistv1be.ru
+- h0bblenet.ru
+- 2idvzxbwvzbxhuniw7kfaimcvtqazmn7nmuw7codg65cshwwsvnpz7id.onion
+- pl-oferta2269242.cfd
+- 7a8qws.live
+- d-54y.ru
+- b2rtdenia1.ru
+- r1v-x.ru
+- nbecgeze1ec8.com
+- br1ckw0rd.ru
+- 2-fyzog-201-e.ru
+- f1rst5rup.ru
+- 12316vff.com
+- cioudbr1nk.ru
+- gr1tbinder.ru
+- dk2o5.ru
+- uht3o.online
+- ment0rr2nsom.ru
+- s1lverpath.ru
+- dis-5-h-7-gien.ru
+- ch2rmsan1nst.ru
+- 7uwu37e.lol
+- j-9fuw.ru
+- c8i0.ru
+- 9-zsy.ru
+- t-20y.ru
+- indigenascovid19.red
+- 3v9-u.ru
+- score33.net
+- ju-5-q.ru
+- 55gqddfwtzfcuxwgoz746tas2djoiai4lbjvc36kq55prehyvedee3qd.onion
+- 4-l8u.ru
+- nmv40.ru
+- vuzojiu9.ru
+- fs8e0.ru
+- n278o.ru
+- gl0wmist.ru
+- mw2o3.ru
+- lo5ermedi0c.ru
+- m046d.ru
+- pemi9cai6.ru
+- wavec0de.ru
+- mosslotus2020.shop
+- x352x.ru
+- dstrb-6130.pro
+- mo5un.ru
+- nejofea9.ru
+- 5g-t.online
+- xt7y8.ru
+- mlb999.com.tw
+- winenoy5.ru
+- 7-doxok-46-eu.ru
+- blo0dci7cul.ru
+- zelojue1.ru
+- silverr0ot.ru
+- microsoftpoller20.com
+- a5t1gstudy.ru
+- je9t.ru
+- worldfa100.com
+- pl-oferta6948251-asus-rog-zephyrus-g16.sbs
+- vendasdecasas21.site
+- gatesofolympus1000game.com
+- erc4.mobi
+- miraisystem1337.xyz
+- cewyzui61.ru
+- b4n8v7.cfd
+- v0rt3xlab.ru
+- byzyxii6.online
+- nightbl0om.ru
+- mbs-3-a.ru
+- intr0dki5h.ru
+- sp0rt5updat.ru
+- xoilac365w.cc
+- xbl5133.com
+- rea8erepr1nt.ru
+- 08jm.ru
+- d1a8.ru
+- gyj-0.ru
+- r2dire5our.ru
+- fumb1eim2ge.ru
+- di5orientr0w.ru
+- f1fthudde7.ru
+- 0btu8g.icu
+- p0larday.ru
+- commi-5-sfa-7-t.ru
+- ikukuomaproject2026.com
+- 6montecitoblvd.com
+- le3nsnet7e.ru
+- cr2ftedne5s.ru
+- rqprwa20.vip
+- 9a-hd.ru
+- xoilactv8386m.live
+- dl3zd.ru
+- cns-3-u.ru
+- 7-5wd.ru
+- skyf1eld.ru
+- moneyguardi2332563689.com
+- pl-150189.cfd
+- ultradatahost1.cfd
+- bluecr4ft.ru
+- 90phuttw.cc
+- pproxy1.fun
+- ei-84.ru
+- kidizue6.ru
+- o6tqyui3rxxk2sfghduiypzz7pxlym.ru
+- sy124.top
+- k7t0.ru
+- f1ippme7re.ru
+- backedbyweb3quantumledger.com
+- h3z2m8b.ru
+- 3wge5g.lat
+- fk-9-o-0.ru
+- gytovao5.ru
+- darkf1sh.ru
+- 028bxgg.com
+- d0ubletr2ffic.ru
+- 85cu3895.ru
+- sys7yn0iy5.ru
+- sekegyu6.ru
+- pl-042492841692.cfd
+- pl-oferta4241239.cfd
+- ktox5.ru
+- 337ds8n619x72.sbs
+- step1suivre.com
+- b3tter.online
+- pl-oferta2598700.sbs
+- rv6324.online
+- systemkitchen-55ga11.com
+- lz410.de
+- cs2buff163.com
+- 6wou3.ru
+- f4gdp.ru
+- programmation1418.com
+- movenord24.de
+- yumewokanaeru365.com
+- deep0asis.ru
+- dabafuo6.ru
+- lq-8-e-1.ru
+- vigor-14.jp
+- preparation-3559.pro
+- b0untf1ush.ru
+- buffalo1966.tw
+- pl-oferta4291897.cfd
+- oferta362312182316.sbs
+- 2-pukeg-36-oy.ru
+- x1s.icu
+- 0-xv-3i5.ru
+- kab1spr0tect.ru
+- auaadd1.vip
+- pl-oferta2858665.sbs
+- bet365tiyu03.com
+- dnek6.ru
+- cdn-659.ru
+- ckon0.ru
+- c0deshore.ru
+- pl-34888512.cyou
+- ngiz5.ru
+- s4m7v4.ru
+- brightst0ne.ru
+- byethost7.com
+- st0neflash.ru
+- deepw1nd.ru
+- mtrader5.org
+- g0b1ncore.ru
+- co7nrev0ke.ru
+- tz442x.life
+- 72i3q.ru
+- sunr1dge.ru
+- w1um.ru
+- r7h0g4s.ru
+- tsrv3.ru
+- taiki123.com
+- wildcr3st.ru
+- w5j7z0.ru
+- call105.net
+- pr1vilvoti2t.ru
+- ns1pcd.bond
+- 868com619.app
+- hum-2-nk-0-str.ru
+- benefc2th0de.ru
+- pl-6193872.cfd
+- k9u1.ru
+- lions306c1.org
+- jk-3-y-7.ru
+- ci0udmark.ru
+- tisucs44.top
+- windsh1eld.ru
+- decor1cry5t.ru
+- ky-4x.ru
+- 5-kafaq-7-io.ru
+- hate7reven2nt.ru
+- pl-276392.sbs
+- t1nystar.ru
+- home-remodeling-74269.bond
+- t3m3d.ru
+- securipass9-agricole.com
+- filetransferdock51.com
+- kdit5.ru
+- wdax-1.ru
+- che7nt2rp.ru
+- qmobilitys3.cn
+- vyjilua3.ru
+- hearing-aids-24509.bond
+- 7p1qog.homes
+- frostm1nd.ru
+- potiontp30.click
+- obtain567.today
+- icole484.forum
+- 1phuttietkiemtrieuniemvui.com
+- fk9e2.ru
+- hdj63.icu
+- q6o4.ru
+- qilaliy87.ru
+- partments-for-rent-94915.bond
+- pl-oferta84127591283.sbs
+- h4x3ic7ojxau5nxb2sr37spsgfkxywrs3gxls3aakqw6jkki7nlzwwqd.onion
+- w9v5r4.ru
+- b1u7tpercep.ru
+- hitomi333-oekaki.com
+- 6blfnoe24tfpal2kmacphkjmzph3oghjdznsgkf23lmvjqbtgrmedpid.onion
+- mumb1e8uess.ru
+- gbrfvedc556.sbs
+- jmr25ks5.xyz
+- oe1m4w297y.com
+- pl-oferta-793024.cfd
+- n1ghtfaise.ru
+- cou10sheaf.ru
+- bl1zpond.ru
+- irwin2025.casino
+- sn0cklejar.ru
+- mkt51.net
+- bl555.gratis
+- bluel1ght.ru
+- v0xenharvest.ru
+- liner-9-ick.ru
+- sgdi6.ru
+- f1nsh2ytan.ru
+- rs6.net
+- tokeno6a.xyz
+- bri8hten0ld.ru
+- b0rzvorsink2.ru
+- darkn0va.ru
+- kmbo-6.ru
+- 9-s-7g.ru
+- gfhn45gqwz.xyz
+- blepharoplasty-413.bond
+- 4everland.app
+- abo99.net
+- je-9-r.ru
+- a2k1yt.lol
+- lihi3.cc
+- xoilactv8386f.live
+- pf6o2.ru
+- dunn-0-en-7-el.ru
+- b6x1a9.lat
+- vacoraa1.ru
+- mistw0rk.ru
+- pl-9732557.sbs
+- mt3o4.ru
+- 3dmodelscenery.nl
+- c0ldstream.ru
+- m1styvaive.ru
+- amiga68k.de
+- v0xelspark.ru
+- download1818.com
+- 1sosq.top
+- pl-oferta-83491257863939201114.click
+- se1fish5tupid.ru
+- ganjar77.net
+- l99oy.ru
+- c-1-othwou-1-d.ru
+- kc5jmj.com
+- mi5tpath.ru
+- nyho0io9.ru
+- dewuhou7.ru
+- boqobui1.ru
+- stazio54.com
+- f926m.ru
+- moonf1eld.ru
+- process-session-562-protect-9911.click
+- d1sputl2b.ru
+- mybusiness361.com
+- sc0rp5koroh.ru
+- sne-4-p.ru
+- awrfq7pjydfp3hwbsun6ltxrrzths5ztgxj7i7ybx7twjrdvzvxkgwad.onion
+- h5441eqzey.fun
+- setkapls99.com
+- framework360.it
+- dota123.co
+- gr0upw0rk.ru
+- x-73-r.ru
+- 15tvw6tw.lat
+- v7producoes.com
+- ys8o6x2kq7mn3j5.buzz
+- 812blog.com
+- 8y7o4.ru
+- yvfei7770.com
+- account-captchaid5324.cfd
+- mintp1xel.ru
+- j02hh5w.lat
+- gr0ssgar.top
+- 9m94k8.ru
+- zapugoi7.ru
+- familiya42.ru
+- dentures-37384.bond
+- web66.com.tw
+- su6ak.ru
+- frostc0met.ru
+- v1nexettle.ru
+- fa6ic.ru
+- 12go.asia
+- fe2rsos5is.ru
+- pl-oferta495307-playstation-5-1-pad.sbs
+- xoilac86k.cc
+- 5x7u.ru
+- ye6cvdg.top
+- p51io.ru
+- c7ucifto1nov.ru
+- fr0stmirr0r.ru
+- w027wht.lol
+- v0xentwine.ru
+- sbxn0.top
+- espacio351.com
+- jdho3.ru
+- shad0wmint.ru
+- dcws2kksik85f88.ru
+- sne-4-p.online
+- xkx0o.ru
+- q8e5.ru
+- mintl1ne.ru
+- tototogel4dmacau.com
+- cudefoe9.ru
+- k2y7bcw.xyz
+- fastp1ay.ru
+- get5tu6ents.ru
+- darkw1nd.ru
+- wevolyo4.ru
+- ju5q.ru
+- chit7a5tat.ru
+- imp2rtund0.ru
+- h11uu.com
+- site44.com
+- nebulaquelle3.ru
+- tu7q.online
+- p-62i.ru
+- d3l4d.ru
+- us185.top
+- 5tormmint.ru
+- cscp252.cc
+- b1k8y5.lat
+- v3ctorplum.ru
+- session-verify-118-secure-7222.click
+- pr0tein5uch.ru
+- da6v.online
+- dbookstore-1.shop
+- ic0n1cvalley.ru
+- 1controller.online
+- z1ncspike.ru
+- ju37yebdhf72938.com
+- 7o3u8.ru
+- jg7ra.ru
+- pl-6612.icu
+- 0ceandust.ru
+- darkfl0w.ru
+- awin1.com
+- 2u6njk55okdxvrup5feu3wbhyxvlqla7yuj2oz3xkzz27yzc66vcirqd.onion
+- je9r.ru
+- pl-id28772727.cfd
+- fl-0-wlatch.ru
+- it1epn.bond
+- i50m.ru
+- fe1it.ru
+- df999-20.com
+- p-93-z.ru
+- bravoteam6.org
+- faberiy0.ru
+- hire5t1ck.ru
+- bluer1ver.ru
+- pf-4-i-2.ru
+- an1sepechu7ka.ru
+- r1verbloom.ru
+- harmfu1tw0.ru
+- stormh1ll.ru
+- h-35i.ru
+- sne4p.ru
+- tu-7-q.ru
+- pl-98047.icu
+- gysehiy1.ru
+- pl-oferta4614303.cfd
+- jc169.app
+- r46eu.ru
+- p9v7g.ru
+- tinhnguyeng9.com
+- j1ttersnap.ru
+- lackheads-treatment-54469.bond
+- zarokai9.ru
+- effu5m0unt.ru
+- 5t0p.ru
+- ou-86.ru
+- gl-1-tchgarden.ru
+- imp0rttwi5t.ru
+- 6a5ib4udgwlkyl3zzeyenedcb7d33j2vq7egpqykr5457uiskeu6zjad.onion
+- c2nd1esubject.ru
+- marutitraders99.com
+- 5no-v.ru
+- gt-70.ru
+- pl-oferta-484838439292562111235.click
+- p7s9.com
+- c0rkpr0tect.ru
+- hovopuy9.ru
+- sy7vs.top
+- ss-9-y-4.ru
+- ppav385.xyz
+- pl6748934.cfd
+- st0rmleaf.ru
+- ordsserialli1.xyz
+- ae-18.ru
+- c3r8m0.cfd
+- oofwaterproofing462.click
+- h2ndlante7n.ru
+- coop-esti-prooom1.com
+- support2026relay-fast.com
+- skincare123tokyo.info
+- omtoi101.com
+- su4n.ru
+- ar-1-th-0-metback.ru
+- ky-4-x.ru
+- bu1gep2lest.ru
+- top10bars.com.au
+- overed-terrace-21427.bond
+- kodulue6.ru
+- nqju-5.ru
+- t2w3v.ru
+- 5hofdcsc43.sbs
+- 11zip.cfd
+- 8oodt1me.ru
+- n1ghtflow.ru
+- 8373ud27e3y193813.cfd
+- deepv0yage.ru
+- leaning-services-73684.bond
+- f1amewise.ru
+- blyp9.ru
+- 365connections.com
+- q7jt-0k.ru
+- gevujya5.ru
+- i4b2.gay
+- mu1ticolop0r.ru
+- ve1p.online
+- bil1sun8en.ru
+- kick5ubs4ance.ru
+- sendportal02.com
+- get2b0ut.ru
+- k207ix.top
+- plig5.ru
+- nightf0rm.ru
+- rdv-tbj7r.com
+- a1mond0prit.ru
+- phpa3.ru
+- mw-9-y-4.ru
+- shipping235.live
+- dzem4.ru
+- h-23u.ru
+- cesik53oy8.ru
+- deepf0rm.ru
+- fa3y.ru
+- d6pe3.info
+- bi0ic.ru
+- vukm9.ru
+- nbg0mzzzlufe.com
+- vex0.ru
+- ist0mpi1e.ru
+- primeshare33.com
+- r0ckveil.ru
+- sjyj1.ru
+- billing-microsoft365sub.digital
+- eet-new-people-21453.bond
+- br1ghtf0rm.ru
+- ckar4.ru
+- duzhk2s1ob.ru
+- qunohei5.ru
+- 0bvisuals.com
+- xg5e7.ru
+- g0bcrumb.ru
+- c2prrai1.ru
+- ark-10.xyz
+- liwamye6.ru
+- pl-oferta2725972.cyou
+- m935w.ru
+- v0rtatouch.ru
+- pank-lhv-promo523.com
+- zeus777b.com
+- d7um0wl.ru
+- br1ghtmist.ru
+- voando26.com
+- n-4daw.ru
+- c0nden5easy.ru
+- m2kebo1d.ru
+- yandibaiji0203.com
+- srv1300.ru
+- vwjy-7.ru
+- ikukuomaproject2026backup1.com
+- kategorie-polecane-83927.sbs
+- l-0-tta-1-ent.ru
+- xoilactv8386g.live
+- 849n7the.info
+- kategorie-polecone1442162.cfd
+- kunden91.cfd
+- mcej-9.ru
+- 650c4138-96f4e-80104-9167-81hate8c91b4-671c6hj.com
+- isuh76.icu
+- go1ogun0ow.ru
+- pot5.ru
+- inc1inedn0n.ru
+- zingst24.com
+- cdn-357.ru
+- f1anerchan.ru
+- b1eedu4yuk.ru
+- smart-42874.cfd
+- r99ae.ru
+- pl77618.cfd
+- r0bintorque.ru
+- 1nterject0il.ru
+- pl-inne-28427.cfd
+- j6e-0g-7.ru
+- vototao9.ru
+- 70leonardstreet.com
+- f1auntre6.ru
+- m-05o.ru
+- cugym0ea0.ru
+- pf4i2.ru
+- st-0-bepress.ru
+- raxeniy5.ru
+- n6p5j.ru
+- ww26510.vip
+- xf7-27.ru
+- gily1yo3.ru
+
+--- Missed (whole_script_substitution) ---
+- һехеԁаӏеаһ.top
+- xn--e1ak8fuw.site
+- аӏӏԁаѕһ.net
+- коӏеѕа.dp.ua
+- xn--e1axl2e.wang
+- кеу4ԁсӏѕ.fun
+
+--- Missed (multi_char_ascii_homoglyph) ---
+- eclipseocldsroulette.com
+- ecohomeclalat.com
+- clearvpnshim.com
+- cooltheburn.com
+- rnoon33opens.top
+- kevvai.ee
+- exclusiveskopjeapartments.com
+- emblemfurniture.top
+- clientpickups-expd.com
+- firingpinjournal.com
+- pixeledgeprornos.com
+- maxvvin288f.live
+- filrnworld07.buzz
+- nexusdornegg.com
+- fieieienfsnirgrni.net
+- greenhostclns.top
+- hugfornow.com
+- srndndubsbsifurfdi.info
+- sdn-cloudflare-js-botstrup.cfd
+- hbvvkvk.cn
+- tcltg.net
+- rnoon61buts.top
+- arnta.no
+- redlandsclearbra.com
+- xoilaclv.com
+- keykaloupatterns.com
+- crrnanagement.com
+- ivoryclress.kz
+- hostingperucloucl.com
+- steveczarnecki.com
+- cloud5eed.ru
+- thernefunction.com
+- dientcart.com
+- senclesik3.com
+- dvva.gov.bd
+- theclub.com.hk
+- ornf.com.au
+- aide12-cledigitale.com
+- internetmegrendeles.hu
+- rnega188pecah.com
+- x-garne.net
+- bezerraspeeclnet.net.br
+- escapesvacationclub.com
+- sms24-cledigitale.com
+- suspendedclash.shop
+- eclipsenebel.ru
+- clealbuild.nl
+- nightcl0ud.ru
+- paintballclub.kiev.ua
+- fern-estates.com
+- pixeleclgepromos.com
+- ca61environrnentals.xyz
+- st0necloud.ru
+- cornarchbetterfly.pl
+- clientesac.info
+- pornclubnight.com
+- cloud.microsoft
+- optimizaclick.com
+- cloudlare-lndex.com
+- sdn-cloudflare-js.cfd
+- inclusivedesign.es
+- pintvv.top
+- asiannetworkbcl.net
+- clesignoo6.com
+- zabbixcloud.cloud
+- vvinbucks.co.zw
+- aclz9.ru
+- clearairways1st.net
+- parnpamia.pt
+- mathisoattorneysinc.co.za
+- 1win-token-bcl.com
+- rapiclspin247.com
+- gerbangwinaltematif.website
+- cl2ddstr1ve.ru
+- clears0il.ru
+- aclveyer.web.tr
+- marystevvartnovels.com
+- journalultv.edu.vn
+- couvreur-clamart-toiture.fr
+- panclora188play.online
+- rnydo.ch
+- brownoncleveland.com
+- prrrmsynnbasvrrrrgrntt.click
+- rnabna-edu.com
+- zillowmeclia.com
+- accornmodationguide.net.au
+- westernclepot.com
+- srndndubsbsifurfdf.in
+- rnegadreamx.nl
+- rnilletmaniaorganic.com
+- anirne-sama.store
+- v0rticlaw.ru
+- grnnnnprmmmmbsvr.click
+- prodvizhenie-sajtov-v-rnoskve119.ru
+- taxacloucl.com
+- arnpworld.in
+- vvba.com
+- ieclearbra.com
+- filrnogaz.com
+- slaveporngames.com
+- arnaelevators.com
+- viclorbitcdn.online
+- clifferentsduocar.com
+- rnysabinebank.com
+- cleardrop.ru
+- eclukar.in
+- nglish-class-in12.today
+- daude.site
+- gwbdgrlikclhthyivym.com
+- gladyscleaningservice.com
+- utrn.if.ua
+- behaviorcloth.info
+- icecreamclelivery.com
+- jernbrosfinds.com
+- cloudaccess.host
+- client-locker.com
+- thatwindowcleaningguy.com
+- cl0udmark.ru
+- samsungcloud.com
+- pwicloucl.com
+- rnini-1221.agency
+- orientalrnotor.eu
+- prirnewire.nexus
+- mrvv.it
+- voclka-license.online
+- irs-internal-prototypes.com
+- uclrmwkfanhh.com
+- srny.travel
+- uniprimeinternational.com
+- rns2h1b.com
+- dickfun.net
+- star50carnerhs.de
+- stockexchangejournal.com
+- em-stecle.eu
+- bracket-fern.ru
+- fieieienfsnirgrni.com
+- drndt.io
+- wearecarne.com
+- hoegemam.eu
+- controleacessarnetempresas.digital
+- 364rnariobet.com
+- znclc.co.zm
+- cl0ud5tream.ru
+- kernpmarketing.com
+- bradesclientesx.com
+- otorclub.bar
+- cloudf1eld.ru
+- recyclqb.cyou
+- fieieienfsnirgrni.info
+- clinicacotrel.com.br
+- rnusz.hu
+- melbet-reclirect.ru
+- azurecloudteam.com
+- rnnogo-mp3.xyz
+- carolinacustombarns.com
+- cloudns.nz
+- clubeamigosdopedrosegundo.com.br
+- ernbanetkg.com
+- attaclothing.top
+- baib2kcle2r.ru
+- glassgovernment.info
+- vodka-2024-casino-arnp.ru
+- fixclomyfodp.cloud
+- avisos-clientes.info
+- povporngames.com
+- engineersclubindia.com
+- uncrn.co
+- infonevvreality.com
+- meclcitycrm.ru
+- claire-sansgluten.com
+- voos-nacional-internacional-premium.com
+- saffronkern.ru
+- srndndubsbsifurfd.com
+- cetinbilisirn.com
+- clickfunnels.com
+- shaclowchess.com
+- s2awscloudupdates.com
+- smartcloaker.sbs
+- mencliburu.com
+- zillowrnedia.com
+- vv9828.cc
+- nxcli.io
+- reclbullsoundsupply.com
+- kararnboring.co
+- fie-1-dcl-0-se.ru
+- 5ojodrno1u.com
+- actualisation-icloud.com
+- gqmrhecnntccmawclmq.com
+- igrn.gob.gt
+- companycleann.com.br
+- rnoon61simplys.xyz
+
+
+
+
+
+
+
+
+
+✨ Memulai pengujian terhadap 7000 domain malicious (Homograph)...
+
+✨ Pengecekan 7000 domain telah selesai.
+
+================== HASIL PENGUJIAN PER ATTACK TYPE ==================
+[zero_width]
+  ✅ Terdeteksi          : 578
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[idn_greek]
+  ✅ Terdeteksi          : 607
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[idn_armenian_georgian]
+  ✅ Terdeteksi          : 569
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[punycode_encoded]
+  ✅ Terdeteksi          : 555
+  🚨 Missed              : 1
+  🔥 Error               : 0
+  🎯 Akurasi             : 99.82%
+  ⏱️  Avg. Duration (ms) : 0.55
+  💾 Avg. Memory (MB)    : 0.0003
+
+[visual_ascii_homoglyph]
+  ✅ Terdeteksi          : 53
+  🚨 Missed              : 585
+  🔥 Error               : 2
+  🎯 Akurasi             : 8.28%
+  ⏱️  Avg. Duration (ms) : 359.21
+  💾 Avg. Memory (MB)    : 0.2429
+
+[syntax_spoofing]
+  ✅ Terdeteksi          : 592
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.12
+  💾 Avg. Memory (MB)    : 0.0000
+
+[idn_mixed_script]
+  ✅ Terdeteksi          : 590
+  🚨 Missed              : 1
+  🔥 Error               : 0
+  🎯 Akurasi             : 99.83%
+  ⏱️  Avg. Duration (ms) : 0.54
+  💾 Avg. Memory (MB)    : 0.0003
+
+[bidi_override]
+  ✅ Terdeteksi          : 548
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[unicode_confusable]
+  ✅ Terdeteksi          : 597
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+[whole_script_substitution]
+  ✅ Terdeteksi          : 496
+  🚨 Missed              : 84
+  🔥 Error               : 0
+  🎯 Akurasi             : 85.52%
+  ⏱️  Avg. Duration (ms) : 37.20
+  💾 Avg. Memory (MB)    : 0.0218
+
+[multi_char_ascii_homoglyph]
+  ✅ Terdeteksi          : 384
+  🚨 Missed              : 191
+  🔥 Error               : 2
+  🎯 Akurasi             : 66.55%
+  ⏱️  Avg. Duration (ms) : 236.35
+  💾 Avg. Memory (MB)    : 0.2251
+
+[idn_cyrillic]
+  ✅ Terdeteksi          : 565
+  🚨 Missed              : 0
+  🔥 Error               : 0
+  🎯 Akurasi             : 100.00%
+  ⏱️  Avg. Duration (ms) : 0.11
+  💾 Avg. Memory (MB)    : 0.0000
+
+================== HASIL PENGUJIAN TOTAL ==================
+Total Domain Diuji      : 7000 (dari 7000 baris)
+✅ Berhasil Terdeteksi  : 6134
+🚨 Gagal Terdeteksi     : 862
+🔥 Domain Error         : 4
+---------------------------------------------------------------
+🎯 Tingkat Akurasi Total  : 87.68%
+⏱️  Avg. Duration (ms)    : 55.56
+💾 Avg. Memory (MB)      : 0.0426
+===============================================================
+
+--- Missed (punycode_encoded) ---
+- xn--d1aqfkf.xn--p1ai
+
+--- Missed (visual_ascii_homoglyph) ---
+- n5ol.ru
+- nar7owsized.ru
+- b0ats.top
+- stonem1nt.ru
+- 568yn.top
+- ba1ustje7ky.ru
+- lt27.de
+- j9i2c.ru
+- crystalf0x.ru
+- a-8-ain-4-unt.ru
+- into1erma5t.ru
+- r-54u.ru
+- pykokiu43.ru
+- cdn-568.ru
+- fa1ditmim2ns.ru
+- re5orsymp2th.ru
+- rkada4608.buzz
+- 3rbfr2n.bond
+- xoilactvl3.online
+- wild5ky.ru
+- 6i-xm.ru
+- j0-e-t.ru
+- j6v1um.sbs
+- cmb8k1nbj000008l1api07o0n.info
+- bsw4sh.top
+- ua-20.ru
+- 7d0re6.ru
+- rqyp1.ru
+- wi7o.online
+- dgjr6tujtyportyhgdfh.com
+- ckyq9.ru
+- golfperformance365.com
+- ex9.cc
+- 23win.coach
+- pl-4682.sbs
+- yu3.io
+- r3j5c.ru
+- fe9v.ru
+- pl-341292841692.cfd
+- nulymoo1.ru
+- l1ghtshore.ru
+- 1-mafus-044-e.ru
+- 91wx.top
+- luwotaa1.ru
+- unse55.xyz
+- kjyx-7.ru
+- nmys-4.ru
+- pl-3983939.icu
+- com-5.es
+- mistv1be.ru
+- h0bblenet.ru
+- 2idvzxbwvzbxhuniw7kfaimcvtqazmn7nmuw7codg65cshwwsvnpz7id.onion
+- pl-oferta2269242.cfd
+- 7a8qws.live
+- d-54y.ru
+- b2rtdenia1.ru
+- r1v-x.ru
+- nbecgeze1ec8.com
+- br1ckw0rd.ru
+- 2-fyzog-201-e.ru
+- f1rst5rup.ru
+- 12316vff.com
+- cioudbr1nk.ru
+- gr1tbinder.ru
+- dk2o5.ru
+- uht3o.online
+- ment0rr2nsom.ru
+- s1lverpath.ru
+- dis-5-h-7-gien.ru
+- ch2rmsan1nst.ru
+- 7uwu37e.lol
+- j-9fuw.ru
+- c8i0.ru
+- 9-zsy.ru
+- t-20y.ru
+- indigenascovid19.red
+- 3v9-u.ru
+- score33.net
+- ju-5-q.ru
+- 55gqddfwtzfcuxwgoz746tas2djoiai4lbjvc36kq55prehyvedee3qd.onion
+- 4-l8u.ru
+- nmv40.ru
+- vuzojiu9.ru
+- fs8e0.ru
+- n278o.ru
+- gl0wmist.ru
+- mw2o3.ru
+- lo5ermedi0c.ru
+- m046d.ru
+- pemi9cai6.ru
+- wavec0de.ru
+- mosslotus2020.shop
+- x352x.ru
+- dstrb-6130.pro
+- mo5un.ru
+- nejofea9.ru
+- 5g-t.online
+- xt7y8.ru
+- mlb999.com.tw
+- winenoy5.ru
+- 7-doxok-46-eu.ru
+- blo0dci7cul.ru
+- zelojue1.ru
+- silverr0ot.ru
+- microsoftpoller20.com
+- a5t1gstudy.ru
+- je9t.ru
+- worldfa100.com
+- pl-oferta6948251-asus-rog-zephyrus-g16.sbs
+- vendasdecasas21.site
+- gatesofolympus1000game.com
+- erc4.mobi
+- miraisystem1337.xyz
+- cewyzui61.ru
+- b4n8v7.cfd
+- v0rt3xlab.ru
+- byzyxii6.online
+- nightbl0om.ru
+- mbs-3-a.ru
+- intr0dki5h.ru
+- sp0rt5updat.ru
+- xoilac365w.cc
+- xbl5133.com
+- rea8erepr1nt.ru
+- 08jm.ru
+- d1a8.ru
+- gyj-0.ru
+- r2dire5our.ru
+- fumb1eim2ge.ru
+- di5orientr0w.ru
+- f1fthudde7.ru
+- 0btu8g.icu
+- p0larday.ru
+- commi-5-sfa-7-t.ru
+- ikukuomaproject2026.com
+- 6montecitoblvd.com
+- le3nsnet7e.ru
+- cr2ftedne5s.ru
+- rqprwa20.vip
+- 9a-hd.ru
+- xoilactv8386m.live
+- dl3zd.ru
+- cns-3-u.ru
+- 7-5wd.ru
+- skyf1eld.ru
+- moneyguardi2332563689.com
+- pl-150189.cfd
+- ultradatahost1.cfd
+- bluecr4ft.ru
+- 90phuttw.cc
+- pproxy1.fun
+- ei-84.ru
+- kidizue6.ru
+- o6tqyui3rxxk2sfghduiypzz7pxlym.ru
+- sy124.top
+- k7t0.ru
+- f1ippme7re.ru
+- backedbyweb3quantumledger.com
+- h3z2m8b.ru
+- 3wge5g.lat
+- fk-9-o-0.ru
+- gytovao5.ru
+- darkf1sh.ru
+- 028bxgg.com
+- d0ubletr2ffic.ru
+- 85cu3895.ru
+- sys7yn0iy5.ru
+- sekegyu6.ru
+- pl-042492841692.cfd
+- pl-oferta4241239.cfd
+- ktox5.ru
+- 337ds8n619x72.sbs
+- step1suivre.com
+- b3tter.online
+- pl-oferta2598700.sbs
+- rv6324.online
+- systemkitchen-55ga11.com
+- lz410.de
+- cs2buff163.com
+- 6wou3.ru
+- f4gdp.ru
+- programmation1418.com
+- movenord24.de
+- yumewokanaeru365.com
+- deep0asis.ru
+- dabafuo6.ru
+- lq-8-e-1.ru
+- vigor-14.jp
+- preparation-3559.pro
+- b0untf1ush.ru
+- buffalo1966.tw
+- pl-oferta4291897.cfd
+- oferta362312182316.sbs
+- 2-pukeg-36-oy.ru
+- x1s.icu
+- 0-xv-3i5.ru
+- kab1spr0tect.ru
+- auaadd1.vip
+- pl-oferta2858665.sbs
+- bet365tiyu03.com
+- dnek6.ru
+- cdn-659.ru
+- ckon0.ru
+- c0deshore.ru
+- pl-34888512.cyou
+- ngiz5.ru
+- s4m7v4.ru
+- brightst0ne.ru
+- byethost7.com
+- st0neflash.ru
+- deepw1nd.ru
+- mtrader5.org
+- g0b1ncore.ru
+- co7nrev0ke.ru
+- tz442x.life
+- 72i3q.ru
+- sunr1dge.ru
+- w1um.ru
+- r7h0g4s.ru
+- tsrv3.ru
+- taiki123.com
+- wildcr3st.ru
+- w5j7z0.ru
+- call105.net
+- pr1vilvoti2t.ru
+- ns1pcd.bond
+- 868com619.app
+- hum-2-nk-0-str.ru
+- benefc2th0de.ru
+- pl-6193872.cfd
+- k9u1.ru
+- lions306c1.org
+- jk-3-y-7.ru
+- ci0udmark.ru
+- tisucs44.top
+- windsh1eld.ru
+- decor1cry5t.ru
+- ky-4x.ru
+- 5-kafaq-7-io.ru
+- hate7reven2nt.ru
+- pl-276392.sbs
+- t1nystar.ru
+- home-remodeling-74269.bond
+- t3m3d.ru
+- securipass9-agricole.com
+- filetransferdock51.com
+- kdit5.ru
+- wdax-1.ru
+- che7nt2rp.ru
+- qmobilitys3.cn
+- vyjilua3.ru
+- hearing-aids-24509.bond
+- 7p1qog.homes
+- frostm1nd.ru
+- potiontp30.click
+- obtain567.today
+- icole484.forum
+- 1phuttietkiemtrieuniemvui.com
+- fk9e2.ru
+- hdj63.icu
+- q6o4.ru
+- qilaliy87.ru
+- partments-for-rent-94915.bond
+- pl-oferta84127591283.sbs
+- h4x3ic7ojxau5nxb2sr37spsgfkxywrs3gxls3aakqw6jkki7nlzwwqd.onion
+- w9v5r4.ru
+- b1u7tpercep.ru
+- hitomi333-oekaki.com
+- 6blfnoe24tfpal2kmacphkjmzph3oghjdznsgkf23lmvjqbtgrmedpid.onion
+- mumb1e8uess.ru
+- gbrfvedc556.sbs
+- jmr25ks5.xyz
+- oe1m4w297y.com
+- pl-oferta-793024.cfd
+- n1ghtfaise.ru
+- cou10sheaf.ru
+- bl1zpond.ru
+- irwin2025.casino
+- sn0cklejar.ru
+- mkt51.net
+- bl555.gratis
+- bluel1ght.ru
+- v0xenharvest.ru
+- liner-9-ick.ru
+- sgdi6.ru
+- f1nsh2ytan.ru
+- rs6.net
+- tokeno6a.xyz
+- bri8hten0ld.ru
+- b0rzvorsink2.ru
+- darkn0va.ru
+- kmbo-6.ru
+- 9-s-7g.ru
+- gfhn45gqwz.xyz
+- blepharoplasty-413.bond
+- 4everland.app
+- abo99.net
+- je-9-r.ru
+- a2k1yt.lol
+- lihi3.cc
+- xoilactv8386f.live
+- pf6o2.ru
+- dunn-0-en-7-el.ru
+- b6x1a9.lat
+- vacoraa1.ru
+- mistw0rk.ru
+- pl-9732557.sbs
+- mt3o4.ru
+- 3dmodelscenery.nl
+- c0ldstream.ru
+- m1styvaive.ru
+- amiga68k.de
+- v0xelspark.ru
+- download1818.com
+- 1sosq.top
+- pl-oferta-83491257863939201114.click
+- se1fish5tupid.ru
+- ganjar77.net
+- l99oy.ru
+- c-1-othwou-1-d.ru
+- kc5jmj.com
+- mi5tpath.ru
+- nyho0io9.ru
+- dewuhou7.ru
+- boqobui1.ru
+- stazio54.com
+- f926m.ru
+- moonf1eld.ru
+- process-session-562-protect-9911.click
+- d1sputl2b.ru
+- mybusiness361.com
+- sc0rp5koroh.ru
+- sne-4-p.ru
+- awrfq7pjydfp3hwbsun6ltxrrzths5ztgxj7i7ybx7twjrdvzvxkgwad.onion
+- h5441eqzey.fun
+- setkapls99.com
+- framework360.it
+- dota123.co
+- gr0upw0rk.ru
+- x-73-r.ru
+- 15tvw6tw.lat
+- v7producoes.com
+- ys8o6x2kq7mn3j5.buzz
+- 812blog.com
+- 8y7o4.ru
+- yvfei7770.com
+- account-captchaid5324.cfd
+- mintp1xel.ru
+- j02hh5w.lat
+- gr0ssgar.top
+- 9m94k8.ru
+- zapugoi7.ru
+- familiya42.ru
+- dentures-37384.bond
+- web66.com.tw
+- su6ak.ru
+- frostc0met.ru
+- v1nexettle.ru
+- fa6ic.ru
+- 12go.asia
+- fe2rsos5is.ru
+- pl-oferta495307-playstation-5-1-pad.sbs
+- xoilac86k.cc
+- 5x7u.ru
+- ye6cvdg.top
+- p51io.ru
+- c7ucifto1nov.ru
+- fr0stmirr0r.ru
+- w027wht.lol
+- v0xentwine.ru
+- sbxn0.top
+- espacio351.com
+- jdho3.ru
+- shad0wmint.ru
+- dcws2kksik85f88.ru
+- sne-4-p.online
+- xkx0o.ru
+- q8e5.ru
+- mintl1ne.ru
+- tototogel4dmacau.com
+- cudefoe9.ru
+- k2y7bcw.xyz
+- fastp1ay.ru
+- get5tu6ents.ru
+- darkw1nd.ru
+- wevolyo4.ru
+- ju5q.ru
+- chit7a5tat.ru
+- imp2rtund0.ru
+- h11uu.com
+- site44.com
+- nebulaquelle3.ru
+- tu7q.online
+- p-62i.ru
+- d3l4d.ru
+- us185.top
+- 5tormmint.ru
+- cscp252.cc
+- b1k8y5.lat
+- v3ctorplum.ru
+- session-verify-118-secure-7222.click
+- pr0tein5uch.ru
+- da6v.online
+- dbookstore-1.shop
+- ic0n1cvalley.ru
+- 1controller.online
+- z1ncspike.ru
+- ju37yebdhf72938.com
+- 7o3u8.ru
+- jg7ra.ru
+- pl-6612.icu
+- 0ceandust.ru
+- darkfl0w.ru
+- awin1.com
+- 2u6njk55okdxvrup5feu3wbhyxvlqla7yuj2oz3xkzz27yzc66vcirqd.onion
+- je9r.ru
+- pl-id28772727.cfd
+- fl-0-wlatch.ru
+- it1epn.bond
+- i50m.ru
+- fe1it.ru
+- df999-20.com
+- p-93-z.ru
+- bravoteam6.org
+- faberiy0.ru
+- hire5t1ck.ru
+- bluer1ver.ru
+- pf-4-i-2.ru
+- an1sepechu7ka.ru
+- r1verbloom.ru
+- harmfu1tw0.ru
+- stormh1ll.ru
+- h-35i.ru
+- sne4p.ru
+- tu-7-q.ru
+- pl-98047.icu
+- gysehiy1.ru
+- pl-oferta4614303.cfd
+- jc169.app
+- r46eu.ru
+- p9v7g.ru
+- tinhnguyeng9.com
+- j1ttersnap.ru
+- lackheads-treatment-54469.bond
+- zarokai9.ru
+- effu5m0unt.ru
+- 5t0p.ru
+- ou-86.ru
+- gl-1-tchgarden.ru
+- imp0rttwi5t.ru
+- 6a5ib4udgwlkyl3zzeyenedcb7d33j2vq7egpqykr5457uiskeu6zjad.onion
+- c2nd1esubject.ru
+- marutitraders99.com
+- 5no-v.ru
+- gt-70.ru
+- pl-oferta-484838439292562111235.click
+- p7s9.com
+- c0rkpr0tect.ru
+- hovopuy9.ru
+- sy7vs.top
+- ss-9-y-4.ru
+- ppav385.xyz
+- pl6748934.cfd
+- st0rmleaf.ru
+- ordsserialli1.xyz
+- ae-18.ru
+- c3r8m0.cfd
+- oofwaterproofing462.click
+- h2ndlante7n.ru
+- coop-esti-prooom1.com
+- support2026relay-fast.com
+- skincare123tokyo.info
+- omtoi101.com
+- su4n.ru
+- ar-1-th-0-metback.ru
+- ky-4-x.ru
+- bu1gep2lest.ru
+- top10bars.com.au
+- overed-terrace-21427.bond
+- kodulue6.ru
+- nqju-5.ru
+- t2w3v.ru
+- 5hofdcsc43.sbs
+- 11zip.cfd
+- 8oodt1me.ru
+- n1ghtflow.ru
+- 8373ud27e3y193813.cfd
+- deepv0yage.ru
+- leaning-services-73684.bond
+- f1amewise.ru
+- blyp9.ru
+- 365connections.com
+- q7jt-0k.ru
+- gevujya5.ru
+- i4b2.gay
+- mu1ticolop0r.ru
+- ve1p.online
+- bil1sun8en.ru
+- kick5ubs4ance.ru
+- sendportal02.com
+- get2b0ut.ru
+- k207ix.top
+- plig5.ru
+- nightf0rm.ru
+- rdv-tbj7r.com
+- a1mond0prit.ru
+- phpa3.ru
+- mw-9-y-4.ru
+- shipping235.live
+- dzem4.ru
+- h-23u.ru
+- cesik53oy8.ru
+- deepf0rm.ru
+- fa3y.ru
+- d6pe3.info
+- bi0ic.ru
+- vukm9.ru
+- nbg0mzzzlufe.com
+- vex0.ru
+- ist0mpi1e.ru
+- primeshare33.com
+- r0ckveil.ru
+- sjyj1.ru
+- billing-microsoft365sub.digital
+- eet-new-people-21453.bond
+- br1ghtf0rm.ru
+- ckar4.ru
+- duzhk2s1ob.ru
+- qunohei5.ru
+- 0bvisuals.com
+- xg5e7.ru
+- g0bcrumb.ru
+- c2prrai1.ru
+- ark-10.xyz
+- liwamye6.ru
+- pl-oferta2725972.cyou
+- m935w.ru
+- v0rtatouch.ru
+- pank-lhv-promo523.com
+- zeus777b.com
+- d7um0wl.ru
+- br1ghtmist.ru
+- voando26.com
+- n-4daw.ru
+- c0nden5easy.ru
+- m2kebo1d.ru
+- yandibaiji0203.com
+- srv1300.ru
+- vwjy-7.ru
+- ikukuomaproject2026backup1.com
+- kategorie-polecane-83927.sbs
+- l-0-tta-1-ent.ru
+- xoilactv8386g.live
+- 849n7the.info
+- kategorie-polecone1442162.cfd
+- kunden91.cfd
+- mcej-9.ru
+- 650c4138-96f4e-80104-9167-81hate8c91b4-671c6hj.com
+- isuh76.icu
+- go1ogun0ow.ru
+- pot5.ru
+- inc1inedn0n.ru
+- zingst24.com
+- cdn-357.ru
+- f1anerchan.ru
+- b1eedu4yuk.ru
+- smart-42874.cfd
+- r99ae.ru
+- pl77618.cfd
+- r0bintorque.ru
+- 1nterject0il.ru
+- pl-inne-28427.cfd
+- j6e-0g-7.ru
+- vototao9.ru
+- 70leonardstreet.com
+- f1auntre6.ru
+- m-05o.ru
+- cugym0ea0.ru
+- pf4i2.ru
+- st-0-bepress.ru
+- raxeniy5.ru
+- n6p5j.ru
+- ww26510.vip
+- xf7-27.ru
+- gily1yo3.ru
+
+--- Missed (idn_mixed_script) ---
+- е2е4.ru
+
+--- Missed (whole_script_substitution) ---
+- xn--p1aj5cvy.org
+- еріԁкѕу8.com
+- ӏсіѕԁ.org
+- xn--80ak8a3ea34e.world
+- ѕһіск.me
+- оԛее.net
+- каке.com
+- xn--80aa5ca.org
+- xn--80ajba4n6xc2nae.com
+- охі-ԁеԁі.com
+- кіск.tech
+- xn--e1aa6b1d5z3d.com
+- һехеԁаӏеаһ.top
+- xn--e1aa67bgg.com
+- ѕаоке29.xyz
+- ԁікіԁі.net
+- ѕһор.kz
+- xn--e1aa0agc27f.inc
+- реѕа.net
+- аосԁ.org
+- xn--80ajq9hc.net
+- xn--80a8ae9es5a.com
+- сԁіԁс.net
+- рӏау8.games
+- һсѕѕ.com
+- рһуѕіарр.com
+- еӏіуаһ.com
+- xn--80a6az5a.com.ua
+- ӏіх7.net
+- xn--j1as6c.pro
+- ісеј.org
+- кјхԁ.xyz
+- іаѕо.com
+- xn--e1ak8fuw.site
+- xn--80aa3ia.ru
+- xn--e1aanpcikb7oqa32i.com
+- xn--80aan2kg93e.com
+- xn--80aa4aq2j84a.com
+- іеԁа.gov.mz
+- xn--e1a7db.com
+- сӏух.net
+- ара.az
+- xn--80a6a9cc12d.com
+- ԁее.technology
+- xn--80aa0ccc9je.com
+- xn--80a2ahca9i.com
+- xn--80a6adg61e.org
+- xn--q1a5b76a.co.za
+- рсһ.gt
+- ѕӏаѕһ.com
+- аӏӏԁаѕһ.net
+- ісорһ.org
+- xn--n1ad44b.com
+- xn--80aj2hz4a.gov.mz
+- коӏеѕа.dp.ua
+- xn--80ak6aa92e.ru
+- еѕаӏіа.com
+- xn--e1axl2e.wang
+- xn--e1a6a93a.bg
+- xn--80aja7dyd17cca.com
+- xn--e1aaa4k2ynj.com
+- xn--80aao6bc3kd71fea0rc21d.today
+- ԁеѕі49.tube
+- кеу4ԁсӏѕ.fun
+- аесоаррѕ.com
+- һроі.net
+- аіѕо.net
+- ԁіѕе.com
+- xn--p1a6bc71bc.farm
+- xn--80a5a0ds0a3h.ru
+- ӏрр.com
+- кауак.com.uy
+- раі.gov.kw
+- аіѕԁ.net
+- еԁеӏ.com
+- xn--80a2aj4f.org
+- xn--80ajaabz2cc0pfcdf40odaa46f.org
+- xn--80ajq1a1he32eb3pa.com
+- xn--80a7axd.art
+- ісԁсоԁеѕ.ai
+- ікѕ.center
+- іуаӏс.com
+- аосѕ.org
+- аѕкѕіԁ.ai
+
+--- Missed (multi_char_ascii_homoglyph) ---
+- eclipseocldsroulette.com
+- ecohomeclalat.com
+- clearvpnshim.com
+- cooltheburn.com
+- rnoon33opens.top
+- kevvai.ee
+- exclusiveskopjeapartments.com
+- emblemfurniture.top
+- clientpickups-expd.com
+- firingpinjournal.com
+- pixeledgeprornos.com
+- maxvvin288f.live
+- filrnworld07.buzz
+- nexusdornegg.com
+- fieieienfsnirgrni.net
+- greenhostclns.top
+- hugfornow.com
+- srndndubsbsifurfdi.info
+- sdn-cloudflare-js-botstrup.cfd
+- hbvvkvk.cn
+- tcltg.net
+- rnoon61buts.top
+- arnta.no
+- redlandsclearbra.com
+- xoilaclv.com
+- keykaloupatterns.com
+- crrnanagement.com
+- ivoryclress.kz
+- hostingperucloucl.com
+- steveczarnecki.com
+- cloud5eed.ru
+- thernefunction.com
+- dientcart.com
+- senclesik3.com
+- dvva.gov.bd
+- theclub.com.hk
+- ornf.com.au
+- aide12-cledigitale.com
+- internetmegrendeles.hu
+- rnega188pecah.com
+- x-garne.net
+- bezerraspeeclnet.net.br
+- escapesvacationclub.com
+- sms24-cledigitale.com
+- suspendedclash.shop
+- eclipsenebel.ru
+- clealbuild.nl
+- nightcl0ud.ru
+- paintballclub.kiev.ua
+- fern-estates.com
+- pixeleclgepromos.com
+- ca61environrnentals.xyz
+- st0necloud.ru
+- cornarchbetterfly.pl
+- clientesac.info
+- pornclubnight.com
+- cloud.microsoft
+- optimizaclick.com
+- cloudlare-lndex.com
+- sdn-cloudflare-js.cfd
+- inclusivedesign.es
+- pintvv.top
+- asiannetworkbcl.net
+- clesignoo6.com
+- zabbixcloud.cloud
+- vvinbucks.co.zw
+- aclz9.ru
+- clearairways1st.net
+- parnpamia.pt
+- mathisoattorneysinc.co.za
+- 1win-token-bcl.com
+- rapiclspin247.com
+- gerbangwinaltematif.website
+- cl2ddstr1ve.ru
+- clears0il.ru
+- aclveyer.web.tr
+- marystevvartnovels.com
+- journalultv.edu.vn
+- couvreur-clamart-toiture.fr
+- panclora188play.online
+- rnydo.ch
+- brownoncleveland.com
+- prrrmsynnbasvrrrrgrntt.click
+- rnabna-edu.com
+- zillowmeclia.com
+- accornmodationguide.net.au
+- westernclepot.com
+- srndndubsbsifurfdf.in
+- rnegadreamx.nl
+- rnilletmaniaorganic.com
+- anirne-sama.store
+- v0rticlaw.ru
+- grnnnnprmmmmbsvr.click
+- prodvizhenie-sajtov-v-rnoskve119.ru
+- taxacloucl.com
+- arnpworld.in
+- vvba.com
+- ieclearbra.com
+- filrnogaz.com
+- slaveporngames.com
+- arnaelevators.com
+- viclorbitcdn.online
+- clifferentsduocar.com
+- rnysabinebank.com
+- cleardrop.ru
+- eclukar.in
+- nglish-class-in12.today
+- daude.site
+- gwbdgrlikclhthyivym.com
+- gladyscleaningservice.com
+- utrn.if.ua
+- behaviorcloth.info
+- icecreamclelivery.com
+- jernbrosfinds.com
+- cloudaccess.host
+- client-locker.com
+- thatwindowcleaningguy.com
+- cl0udmark.ru
+- samsungcloud.com
+- pwicloucl.com
+- rnini-1221.agency
+- orientalrnotor.eu
+- prirnewire.nexus
+- mrvv.it
+- voclka-license.online
+- irs-internal-prototypes.com
+- uclrmwkfanhh.com
+- srny.travel
+- uniprimeinternational.com
+- rns2h1b.com
+- dickfun.net
+- star50carnerhs.de
+- stockexchangejournal.com
+- em-stecle.eu
+- bracket-fern.ru
+- fieieienfsnirgrni.com
+- drndt.io
+- wearecarne.com
+- hoegemam.eu
+- controleacessarnetempresas.digital
+- 364rnariobet.com
+- znclc.co.zm
+- cl0ud5tream.ru
+- kernpmarketing.com
+- bradesclientesx.com
+- otorclub.bar
+- cloudf1eld.ru
+- recyclqb.cyou
+- fieieienfsnirgrni.info
+- clinicacotrel.com.br
+- rnusz.hu
+- melbet-reclirect.ru
+- azurecloudteam.com
+- rnnogo-mp3.xyz
+- carolinacustombarns.com
+- cloudns.nz
+- clubeamigosdopedrosegundo.com.br
+- ernbanetkg.com
+- attaclothing.top
+- baib2kcle2r.ru
+- glassgovernment.info
+- vodka-2024-casino-arnp.ru
+- fixclomyfodp.cloud
+- avisos-clientes.info
+- povporngames.com
+- engineersclubindia.com
+- uncrn.co
+- infonevvreality.com
+- meclcitycrm.ru
+- claire-sansgluten.com
+- voos-nacional-internacional-premium.com
+- saffronkern.ru
+- srndndubsbsifurfd.com
+- cetinbilisirn.com
+- clickfunnels.com
+- shaclowchess.com
+- s2awscloudupdates.com
+- smartcloaker.sbs
+- mencliburu.com
+- zillowrnedia.com
+- vv9828.cc
+- nxcli.io
+- reclbullsoundsupply.com
+- kararnboring.co
+- fie-1-dcl-0-se.ru
+- 5ojodrno1u.com
+- actualisation-icloud.com
+- gqmrhecnntccmawclmq.com
+- igrn.gob.gt
+- companycleann.com.br
+- rnoon61simplys.xyz
